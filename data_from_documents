@@ -1,0 +1,44 @@
+Manipulating data in text documents with Python involves reading the content, modifying it, and then writing the changes back to a file. This process often utilizes Python's built-in file handling capabilities and string manipulation methods.
+1. Reading the File Content:
+The first step is to open the text file and read its content into a Python string or a list of strings (where each element represents a line). The with open() statement is recommended for safe file handling, as it automatically closes the file even if errors occur.
+Python
+
+# Read entire file content as a single string
+with open('my_document.txt', 'r') as file:
+    content = file.read()
+
+# Read file content line by line into a list
+with open('my_document.txt', 'r') as file:
+    lines = file.readlines()
+2. Manipulating the Data:
+Once the data is loaded, various string methods and techniques can be applied to modify it:
+String Methods:
+replace(): To substitute specific text with new text.
+strip(): To remove leading/trailing whitespace, including newline characters (\n).
+split(): To divide a string into a list of substrings based on a delimiter.
+lower()/upper(): To convert text to lowercase or uppercase.
+find()/index(): To locate the position of a substring.
+Regular Expressions (re module): For more complex pattern matching and replacement.
+List Comprehensions/Loops: To process data line by line or element by element if the content was read into a list.
+Python
+
+# Example: Replacing text in a string
+modified_content = content.replace('old_text', 'new_text')
+
+# Example: Removing newline characters from each line in a list
+cleaned_lines = [line.strip() for line in lines]
+
+# Example: Using regular expressions for pattern-based replacement
+import re
+modified_content_regex = re.sub(r'\d+', 'NUMBER', content) # Replace all numbers with "NUMBER"
+3. Writing the Modified Data:
+After manipulation, the updated data can be written back to the same file (overwriting the original) or to a new file.
+Python
+
+# Write modified content back to the original file
+with open('my_document.txt', 'w') as file:
+    file.write(modified_content)
+
+# Write modified lines to a new file
+with open('new_document.txt', 'w') as file:
+    file.writelines(cleaned_lines)
