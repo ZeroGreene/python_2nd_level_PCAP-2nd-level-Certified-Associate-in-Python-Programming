@@ -1,3 +1,8 @@
+link 1
+https://www.geeksforgeeks.org/python/reading-writing-text-files-python/
+
+
+link 0
 Manipulating data in text documents with Python involves reading the content, modifying it, and then writing the changes back to a file. This process often utilizes Python's built-in file handling capabilities and string manipulation methods.
 1. Reading the File Content:
 The first step is to open the text file and read its content into a Python string or a list of strings (where each element represents a line). The with open() statement is recommended for safe file handling, as it automatically closes the file even if errors occur.
