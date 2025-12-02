@@ -9,11 +9,16 @@ dc
   PCAP Exam: Main Sections (for current PCAP-31-03)
 The exam is divided into five major domains: pythoninstitute.org+1
 SectionTopic / Focus
-  0.Modules & Packages — ~ 12%Importing and using modules/packages, organizing code into packages, using standard modules like math, random, platform. pythoninstitute.org+1
-  1.Exceptions — ~ 14%Handling errors and exceptions: try/except, raising exceptions, using / defining exception types. cramkey.com+1
-  2.Strings — ~ 18%Working with string data: encodings (ASCII/Unicode/UTF-8), indexing, slicing, immutability, string methods and operations. pythoninstitute.org+1
-  3. Object-Oriented Programming (OOP) — ~ 34%Classes and objects: defining classes, inheritance (single/multiple), encapsulation, special methods (__init__, __str__), class vs. instance variables, introspection, polymorphism, name-mangling. pythoninstitute.org+2cramkey.com+2
-  4. Miscellaneous (Comprehensions, Lambdas, Closures, I/O / File Operations) — ~ 22%This includes list comprehensions, lambda expressions, closures, file input/output (text & binary), and related operations (open, read, write, streams). pythoninstitute.org+2pythoninstitute.org+2
+  
+0.Modules & Packages — ~ 12%Importing and using modules/packages, organizing code into packages, using standard modules like math, random, platform. pythoninstitute.org+1
+ 
+1.Exceptions — ~ 14%Handling errors and exceptions: try/except, raising exceptions, using / defining exception types. cramkey.com+1
+
+2.Strings — ~ 18%Working with string data: encodings (ASCII/Unicode/UTF-8), indexing, slicing, immutability, string methods and operations. pythoninstitute.org+1
+  
+3. Object-Oriented Programming (OOP) — ~ 34%Classes and objects: defining classes, inheritance (single/multiple), encapsulation, special methods (__init__, __str__), class vs. instance variables, introspection, polymorphism, name-mangling. pythoninstitute.org+2cramkey.com+2
+  
+4. Miscellaneous (Comprehensions, Lambdas, Closures, I/O / File Operations) — ~ 22%This includes list comprehensions, lambda expressions, closures, file input/output (text & binary), and related operations (open, read, write, streams). pythoninstitute.org+2pythoninstitute.org+2
 ============================================
   
 ⚠️ Note: Past (Retired) Version — PCAP-31-02
